@@ -7,10 +7,7 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "How Celestia works",
-          link: {
-            type: 'generated-index',
-          },
+          label: "Overview of Celestia and submitting transactions",
           collapsed: true,
           items: [
             {
@@ -24,66 +21,111 @@ const sidebars = {
               id: "learn/how-celestia-works/monolithic-vs-modular"
             },
             {
-              type: "doc",
-              label: "Celestia's data availability layer",
-              id: "learn/how-celestia-works/data-availability-layer"
+              type: "category",
+              label: "Data availability layer",
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  label: "Celestia’s data availability layer",
+                  id: "learn/how-celestia-works/data-availability-layer"
+                },
+                {
+                  type: "doc",
+                  label: "Data availability FAQs",
+                  id: "learn/data-availability-faq"
+                }
+              ]
             },
             {
-              type: "doc",
-              label: "The lifecycle of a Celestia App transaction",
-              id: "learn/how-celestia-works/transaction-lifecycle"
+              type: "category",
+              label: "Submitting transactions to Celestia",
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  label: "The lifecycle of a Celestia app transaction",
+                  id: "learn/how-celestia-works/transaction-lifecycle"
+                },
+                {
+                  type: "doc",
+                  label: "Submitting data blobs to Celestia",
+                  id: "learn/submit-data"
+                }
+              ]
+            },
+            {
+              type: "category",
+              label: "Extra resources",
+              collapsed: true,
+              items: [
+                {
+                  type: "link",
+                  label: "Specifications",
+                  href: "https://celestiaorg.github.io/celestia-app/"
+                },
+                {
+                  type: "link",
+                  label: "Glossary",
+                  href: "https://celestia.org/glossary/"
+                }
+              ]
             }
           ]
         },
         {
-          type: "doc",
-          label: "Data availability FAQ",
-            id: "learn/data-availability-faq",
-        },
-        {
           type: "category",
-          label: "Paying for blobspace",
-          link: {
-            type: 'generated-index',
-          },
+          label: "TIA",
           collapsed: true,
           items: [
             {
-              type: 'doc',
-              label: "Submitting data blobs to Celestia",
-              id: "learn/submit-data"
+              type: "doc",
+              label: "TIA at a glance",
+              id: "learn/tia"
+            },
+            {
+              type: "doc",
+              label: "Role of TIA",
+              id: "learn/role-of-tia"
             }
           ]
         },
         {
           type: "category",
-          label: "Specifications",
-          link: {
-            type: 'generated-index',
-          },
+          label: "Staking and governance",
           collapsed: true,
           items: [
             {
-              type: 'doc',
-              label: "Reserved namespaces",
-              id: "learn/specifications/reserved-namespaces"
+              type: "doc",
+              label: "Proof-of-stake on Celestia",
+              id: "learn/proof-of-stake-on-celestia"
             },
             {
-              type: "link",
-              label: "Celestia App",
-              href: "https://celestiaorg.github.io/celestia-app/",
+              type: "doc",
+              label: "Inflation/emissions",
+              id: "learn/inflation-emissions"
             },
+            {
+              type: "doc",
+              label: "Governance",
+              id: "learn/governance"
+            },
+            {
+              type: "doc",
+              label: "Network parameters",
+              id: "learn/network-parameters"
+            },
+            {
+              type: "doc",
+              label: "Community pool overview",
+              id: "learn/community-pool-overview"
+            },
+            {
+              type: "doc",
+              label: "Supply",
+              id: "learn/supply"
+            }
           ]
-        },
-        {
-          type: "link",
-          label: "Learn modular",
-          href: "https://celestia.org/learn/"
-        },
-        {
-          type: "link",
-          label: "Glossary",
-          href: "https://celestia.org/glossary/"
         }
       ]
     },
