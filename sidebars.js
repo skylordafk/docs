@@ -314,11 +314,6 @@ const sidebars = {
           label: "Wallet with Celestia Node",
           id: "developers/celestia-node-key"
         },
-        {
-          type: "doc",
-          label: "Staking",
-          id: "developers/staking"
-        },
       ]
     },
     {
@@ -534,7 +529,7 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "Overview of Celestia and submitting transactions",
+          label: "Overview of Celestia",
           collapsed: true,
           items: [
             {
@@ -566,26 +561,14 @@ const sidebars = {
             },
             {
               type: "category",
-              label: "Submitting transactions to Celestia",
-              collapsed: true,
-              items: [
-                {
-                  type: "doc",
-                  label: "The lifecycle of a Celestia app transaction",
-                  id: "learn/how-celestia-works/transaction-lifecycle"
-                },
-                {
-                  type: "doc",
-                  label: "Submitting data blobs to Celestia",
-                  id: "learn/submit-data"
-                }
-              ]
-            },
-            {
-              type: "category",
               label: "Extra resources",
               collapsed: true,
               items: [
+                {
+                  type: "link",
+                  label: "Learn modular",
+                  href: "https://celestia.org/learn/"
+                },
                 {
                   type: "link",
                   label: "Specifications",
@@ -614,7 +597,24 @@ const sidebars = {
               type: "doc",
               label: "Role of TIA",
               id: "learn/role-of-tia"
-            }
+            },
+            {
+              type: "category",
+              label: "Submitting transactions to Celestia",
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  label: "The lifecycle of a Celestia app transaction",
+                  id: "learn/how-celestia-works/transaction-lifecycle"
+                },
+                {
+                  type: "doc",
+                  label: "Submitting data blobs to Celestia",
+                  id: "learn/submit-data"
+                }
+              ]
+            },
           ]
         },
         {
@@ -629,7 +629,7 @@ const sidebars = {
             },
             {
               type: "doc",
-              label: "Inflation/emissions",
+              label: "Inflation & emissions",
               id: "learn/inflation-emissions"
             },
             {
