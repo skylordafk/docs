@@ -6,9 +6,7 @@ Backers Seed, and Initial Core Contributors.
 
 ## TIA distribution
 
-:::warning TODO
-TODO: Add new pie chart
-:::
+![allocation diagram](../img/learn/Celestia_TIA_Allocation_at_Genesis.png)
 
 | Category | Description | Percentage (%) |
 | -------- | ----------- | -------------- |
@@ -19,6 +17,8 @@ TODO: Add new pie chart
 | Initial Core Contributors | Members of Celestia Labs, the first core contributor to Celestia | 17.6% |
 
 ## Unlocks
+
+![supply diagram](../img/learn/Celestia_TIA_Available_Supply.png)
 
 The 1B TIA minted at genesis is subject to various lockup schedules
 depending on the category. The unlock schedule for each category is
@@ -31,10 +31,6 @@ described in the table below.
 | Initial Core Contributors | 33% unlocked at year 1.<br/>Remaining 67% unlocks continuously from year 1 to year 3. |
 | Early Backers: Series A&B | 33% unlocked at year 1.<br/>Remaining 67% unlocks continuously from year 1 to year 2. |
 | Early Backers: Seed | 33% unlocked at year 1.<br/>Remaining 67% unlocks continuously from year 1 to year 2. |
-
-:::warning TODO
-TODO: Add new graph
-:::
 
 **Circulating supply** is defined as the amount of TIA tokens in
 general circulation that have no restrictions on transfer.

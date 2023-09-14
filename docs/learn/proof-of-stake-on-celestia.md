@@ -19,19 +19,13 @@ For more details on how proof of stake works on Cosmos SDK chains like Celestia,
 | Validator Set Size | 100 |
 | Delegation Support | Yes |
 
-:::warning TODO
-TODO: add Key resources about PoS used in Celestia (Cosmos SDK)
-:::
-
 ## Inflation
 
 TIA inflation starts at 8% annually and decreases by 10% every year
 until it reaches the long term issuance rate of 1.5%. Exact annual
 inflation rates can be found in the diagram below.
 
-:::warning TODO
-TODO: Inflation-over-10-years diagram (from token distribution sheet)
-:::
+![inflation diagram](../img/learn/Celestia_TIA_Inflation.png)
 
 The annual provisions for inflation are calculated based on the
 total supply of TIA at the beginning of each year. To calculate how
