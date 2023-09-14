@@ -314,6 +314,11 @@ const sidebars = {
           label: "Wallet with Celestia Node",
           id: "developers/celestia-node-key"
         },
+        {
+          type: "doc",
+          label: "Staking",
+          id: "developers/staking"
+        },
       ]
     },
     {
@@ -599,6 +604,11 @@ const sidebars = {
               id: "learn/role-of-tia"
             },
             {
+              type: "doc",
+              label: "Paying for blobspace",
+              id: "learn/paying-for-blobspace"
+            },
+            {
               type: "category",
               label: "Submitting transactions to Celestia",
               collapsed: true,
@@ -629,23 +639,8 @@ const sidebars = {
             },
             {
               type: "doc",
-              label: "Inflation & emissions",
-              id: "learn/inflation-emissions"
-            },
-            {
-              type: "doc",
               label: "Governance",
               id: "learn/governance"
-            },
-            {
-              type: "doc",
-              label: "Network parameters",
-              id: "learn/network-parameters"
-            },
-            {
-              type: "doc",
-              label: "Community pool overview",
-              id: "learn/community-pool-overview"
             },
             {
               type: "doc",
