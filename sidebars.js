@@ -527,125 +527,118 @@ const sidebars = {
     },
   ],
   learn: [
-    {
-      type: "category",
-      label: "Learn",
-      collapsed: true,
-      items: [
-        {
-          type: "category",
-          label: "Overview of Celestia",
-          collapsed: true,
-          items: [
-            {
-              type: 'doc',
-              label: "Introduction",
-              id: "learn/how-celestia-works/introduction"
-            },
-            {
-              type: "doc",
-              label: "Monolithic vs. modular blockchains",
-              id: "learn/how-celestia-works/monolithic-vs-modular"
-            },
-            {
-              type: "category",
-              label: "Data availability layer",
-              collapsed: true,
-              items: [
-                {
-                  type: "doc",
-                  label: "Celestia’s data availability layer",
-                  id: "learn/how-celestia-works/data-availability-layer"
-                },
-                {
-                  type: "doc",
-                  label: "Data availability FAQs",
-                  id: "learn/data-availability-faq"
-                }
-              ]
-            },
-            {
-              type: "category",
-              label: "Extra resources",
-              collapsed: true,
-              items: [
-                {
-                  type: "link",
-                  label: "Learn modular",
-                  href: "https://celestia.org/learn/"
-                },
-                {
-                  type: "link",
-                  label: "Specifications",
-                  href: "https://celestiaorg.github.io/celestia-app/"
-                },
-                {
-                  type: "link",
-                  label: "Glossary",
-                  href: "https://celestia.org/glossary/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          type: "category",
-          label: "TIA",
-          collapsed: true,
-          items: [
-            {
-              type: "doc",
-              label: "TIA overview",
-              id: "learn/tia"
-            },
-            {
-              type: "doc",
-              label: "Paying for blobspace",
-              id: "learn/paying-for-blobspace"
-            },
-            {
-              type: "category",
-              label: "Submitting transactions to Celestia",
-              collapsed: true,
-              items: [
-                {
-                  type: "doc",
-                  label: "The lifecycle of a Celestia app transaction",
-                  id: "learn/how-celestia-works/transaction-lifecycle"
-                },
-                {
-                  type: "doc",
-                  label: "Submitting data blobs to Celestia",
-                  id: "learn/submit-data"
-                }
-              ]
-            },
-          ]
-        },
-        {
-          type: "category",
-          label: "Staking and governance",
-          collapsed: true,
-          items: [
-            {
-              type: "doc",
-              label: "Proof-of-stake on Celestia",
-              id: "learn/proof-of-stake-on-celestia"
-            },
-            {
-              type: "doc",
-              label: "Governance",
-              id: "learn/governance"
-            },
-            {
-              type: "doc",
-              label: "Supply",
-              id: "learn/supply"
-            }
-          ]
-        }
-      ]
-    },
+      {
+        type: "category",
+        label: "Overview of Celestia",
+        collapsed: true,
+        items: [
+          {
+            type: 'doc',
+            label: "Introduction",
+            id: "learn/how-celestia-works/introduction"
+          },
+          {
+            type: "doc",
+            label: "Monolithic vs. modular blockchains",
+            id: "learn/how-celestia-works/monolithic-vs-modular"
+          },
+          {
+            type: "category",
+            label: "Data availability layer",
+            collapsed: true,
+            items: [
+              {
+                type: "doc",
+                label: "Celestia’s data availability layer",
+                id: "learn/how-celestia-works/data-availability-layer"
+              },
+              {
+                type: "doc",
+                label: "Data availability FAQs",
+                id: "learn/data-availability-faq"
+              }
+            ]
+          },
+          {
+            type: "category",
+            label: "Extra resources",
+            collapsed: true,
+            items: [
+              {
+                type: "link",
+                label: "Learn modular",
+                href: "https://celestia.org/learn/"
+              },
+              {
+                type: "link",
+                label: "Specifications",
+                href: "https://celestiaorg.github.io/celestia-app/"
+              },
+              {
+                type: "link",
+                label: "Glossary",
+                href: "https://celestia.org/glossary/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        type: "category",
+        label: "TIA",
+        collapsed: true,
+        items: [
+          {
+            type: "doc",
+            label: "TIA overview",
+            id: "learn/tia"
+          },
+          {
+            type: "doc",
+            label: "Paying for blobspace",
+            id: "learn/paying-for-blobspace"
+          },
+          {
+            type: "category",
+            label: "Submitting transactions to Celestia",
+            collapsed: true,
+            items: [
+              {
+                type: "doc",
+                label: "The lifecycle of a Celestia app transaction",
+                id: "learn/how-celestia-works/transaction-lifecycle"
+              },
+              {
+                type: "doc",
+                label: "Submitting data blobs to Celestia",
+                id: "learn/submit-data"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        type: "category",
+        label: "Staking and governance",
+        collapsed: true,
+        items: [
+          {
+            type: "doc",
+            label: "Proof-of-stake on Celestia",
+            id: "learn/proof-of-stake-on-celestia"
+          },
+          {
+            type: "doc",
+            label: "Governance",
+            id: "learn/governance"
+          },
+          {
+            type: "doc",
+            label: "Supply",
+            id: "learn/supply"
+          }
+        ]
+      },
   ]
 };
 
