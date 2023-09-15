@@ -322,6 +322,11 @@ const sidebars = {
       ]
     },
     {
+      type: "doc",
+      label: "Submitting data blobs to Celestia",
+      id: "developers/submit-data"
+    },
+    {
       type: "category",
       label: "Node API",
       link: {
@@ -554,6 +559,11 @@ const sidebars = {
               },
               {
                 type: "doc",
+                label: "The lifecycle of a Celestia app transaction",
+                id: "learn/how-celestia-works/transaction-lifecycle"
+              },
+              {
+                type: "doc",
                 label: "Data availability FAQs",
                 id: "learn/data-availability-faq"
               }
@@ -597,23 +607,6 @@ const sidebars = {
             type: "doc",
             label: "Paying for blobspace",
             id: "learn/paying-for-blobspace"
-          },
-          {
-            type: "category",
-            label: "Submitting transactions to Celestia",
-            collapsed: true,
-            items: [
-              {
-                type: "doc",
-                label: "The lifecycle of a Celestia app transaction",
-                id: "learn/how-celestia-works/transaction-lifecycle"
-              },
-              {
-                type: "doc",
-                label: "Submitting data blobs to Celestia",
-                id: "learn/submit-data"
-              }
-            ]
           },
         ]
       },
