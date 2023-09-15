@@ -181,7 +181,7 @@ and remove the first line of output from the terminal.
 import(`@site/src/openrpc-spec/openrpc-your-new-version.json`);
 ```
 
-11. Lastly, update the `docs/learn/submit-data.md` to reflect the new version:
+11. Lastly, update the `docs/developers/submit-data.md` to reflect the new version:
 
 Change this:
 
@@ -209,7 +209,7 @@ Using the JSON RPC API, submit data using the following methods:
 Learn more in the [celestia-node API docs](/api/your-new-version).
 ```
 
-11. Lastly, update the `docs/learn/submit-data.md` to reflect the new version:
+11. Lastly, update the `docs/developers/submit-data.md` to reflect the new version:
 
 Change this:
 

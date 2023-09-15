@@ -107,7 +107,7 @@ const config = {
             from: "/category/node-api",
           },
           {
-            to: "/learn/submit-data",
+            to: "/developers/submit-data",
             from: "/concepts/submit-data",
           },
           {

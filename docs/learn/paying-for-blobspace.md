@@ -29,5 +29,4 @@ then a variable fee based on the size of each blob in the
 transaction.
 
 For more information on how fees are calculated in Celestia, see
-[our documentation on submitting PFB transactions](../submit-data)
-.
+[our documentation on submitting PFB transactions](../../developers/submit-data).

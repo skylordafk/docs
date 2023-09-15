@@ -608,28 +608,11 @@ const sidebars = {
             label: "Paying for blobspace",
             id: "learn/paying-for-blobspace"
           },
-        ]
-      },
-      {
-        type: "category",
-        label: "Staking, governance, & supply",
-        collapsed: true,
-        items: [
           {
             type: "doc",
-            label: "Proof-of-stake on Celestia",
-            id: "learn/proof-of-stake-on-celestia"
+            label: "Staking, governance, & supply",
+            id: "learn/staking-governance-supply"
           },
-          {
-            type: "doc",
-            label: "Governance",
-            id: "learn/governance"
-          },
-          {
-            type: "doc",
-            label: "Supply",
-            id: "learn/supply"
-          }
         ]
       },
   ]
