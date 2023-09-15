@@ -1,9 +1,9 @@
 ---
-sidebar_label: Data Availability FAQ
+sidebar_label: Data Availability FAQs
 description: Frequently asked questions related to Data Availability.
 ---
 
-# Data availability FAQ
+# Data availability frequently asked questions (FAQs)
 
 ## What is data availability?
 
