@@ -590,7 +590,7 @@ const sidebars = {
         items: [
           {
             type: "doc",
-            label: "TIA overview",
+            label: "Overview of TIA",
             id: "learn/tia"
           },
           {
@@ -619,7 +619,7 @@ const sidebars = {
       },
       {
         type: "category",
-        label: "Staking and governance",
+        label: "Staking, governance, & supply",
         collapsed: true,
         items: [
           {

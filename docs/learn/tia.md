@@ -1,6 +1,6 @@
-# TIA overview
+# Overview of TIA
 
-## TIA, at a glance
+## TIA at a glance
 
 | Property | Details |
 | -------- | ------- |
@@ -43,5 +43,5 @@ TIA staking also allows the community to play a critical role in
 decentralised governance over key parts of Celestia, such as voting
 on network parameters through governance proposals, and governing
 the community pool, which receives 2% of block rewards.
-Click [here](../governance) to go to the decentralised governance
+Click [here](../staking-governance-supply#governance) to go to the decentralised governance
 section.
