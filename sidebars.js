@@ -595,13 +595,8 @@ const sidebars = {
           items: [
             {
               type: "doc",
-              label: "TIA at a glance",
+              label: "TIA overview",
               id: "learn/tia"
-            },
-            {
-              type: "doc",
-              label: "Role of TIA",
-              id: "learn/role-of-tia"
             },
             {
               type: "doc",
