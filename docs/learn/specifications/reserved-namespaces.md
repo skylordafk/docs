@@ -15,7 +15,6 @@ in the celestia-app specs.
 
 | name | type | category | value | description |
 | ---- | ---- | -------- | ----- | ----------- |
-
 | `TRANSACTION_NAMESPACE` | `Namespace` | Primary | `0x0000000000000000000000000000000000000000000000000000000001` | Namespace for ordinary Cosmos SDK transactions. |
 | `INTERMEDIATE_STATE_ROOT_NAMESPACE` | `Namespace` | Primary | `0x0000000000000000000000000000000000000000000000000000000002` | Namespace for intermediate state roots (not currently utilized). |
 | `PAY_FOR_BLOB_NAMESPACE` | `Namespace` | Primary | `0x0000000000000000000000000000000000000000000000000000000004` | Namespace for transactions that contain a PayForBlob. |
