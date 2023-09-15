@@ -1,11 +1,11 @@
 ---
 sidebar_label: Staking, governance, & supply
-description: Learn about Proof-of-Stake on Celestia
+description: Learn about proof-of-stake on Celestia
 ---
 
 # Staking, governance, & supply
 
-## Proof-of-Stake on Celestia
+## Proof-of-stake on Celestia
 
 Celestia is a proof of stake blockchain based on Comet-BFT and the Cosmos-SDK. Celestia supports in-protocol delegation and will start with an initial validator set of 100.
 
@@ -16,7 +16,7 @@ For more details on how proof of stake works on Cosmos SDK chains like Celestia,
 
 | Property | Details |
 | -------- | ------- |
-| Consensus Mechanism | Proof-of-Stake (PoS) |
+| Consensus Mechanism | Proof-of-stake (PoS) |
 | Blockchain Framework | Cosmos SDK |
 | Validator Set Size | 100 |
 | Delegation Support | Yes |

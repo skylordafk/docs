@@ -27,14 +27,14 @@ currency, in addition to paying for data availability. In this mode,
 developers can focus on creating their application or execution
 layer, instead of having to issue a token right away.
 
-## Proof-of-Stake
+## Proof-of-stake
 
 As a permissionless network built with Cosmos SDK, Celestia uses
-Proof-of-Stake to secure its own consensus. Like in other Cosmos networks,
+proof-of-stake (PoS) to secure its own consensus. Like in other Cosmos networks,
 any user can help secure the network by delegating their TIA to a Celestia
 validator for a portion of their validator’s staking rewards.
 
-For an overview of how Proof-of-stake works in Cosmos, read more
+For an overview of how PoS works in Cosmos, read more
 [here](https://docs.cosmos.network/main/modules/staking).
 
 ## Decentralised Governance
