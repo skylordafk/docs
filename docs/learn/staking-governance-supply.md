@@ -7,19 +7,21 @@ description: Learn about proof-of-stake on Celestia
 
 ## Proof-of-stake on Celestia
 
-Celestia is a proof of stake blockchain based on Comet-BFT and the Cosmos-SDK. Celestia supports in-protocol delegation and will start with an initial validator set of 100.
+Celestia is a proof-of-stake blockchain based on Comet-BFT and the Cosmos-SDK. Celestia supports in-protocol delegation and will start with an initial validator set of 100.
 
 Staking TIA as a validator or delegator enables you to earn staking rewards from the network. Validators charge a fee to delegators which gives them a percentage of staking rewards.
 
 For more details on how proof of stake works on Cosmos SDK chains like Celestia, see
-[this document](https://docs.cosmos.network/main/modules/staking#:~:text=The%20module%20enables%20Cosmos%20SDK,validator%20set%20for%20the%20system).
+[this document](https://docs.cosmos.network/main/modules/staking).
 
-| Property | Details |
+| Consensus mechanism | Proof-of-stake (PoS) |
 | -------- | ------- |
-| Consensus Mechanism | Proof-of-stake (PoS) |
-| Blockchain Framework | Cosmos SDK |
-| Validator Set Size | 100 |
-| Delegation Support | Yes |
+| Blockchain framework | Cosmos SDK |
+| Validator set size | 100 |
+| Delegation support | Yes |
+
+Learn how to stake on your own at the community dashboards
+listed [here](../../developers/staking/).
 
 ## Inflation
 
@@ -36,9 +38,6 @@ rather than the block height since the time between blocks can vary
 and cause actual issuance to be higher than the target.
 
 More details can be found in [ADR019](https://github.com/celestiaorg/celestia-app/blob/main/docs/architecture/adr-019-strict-inflation-schedule.md).
-
-Learn how to stake on your own at the community dashboards
-listed [here](../../developers/staking/).
 
 ## Governance
 
