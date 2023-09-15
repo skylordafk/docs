@@ -64,7 +64,7 @@ TODO: add community pool overview
 
 The 1B TIA minted at genesis are split into five categories: Public
 Allocation, R&D & Ecosystem, Early Backers: Series A&B, Early
-Backers Seed, and Initial Core Contributors.
+Backers: Seed, and Initial Core Contributors.
 
 ### TIA distribution
 
