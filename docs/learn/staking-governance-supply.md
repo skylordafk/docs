@@ -38,7 +38,7 @@ and cause actual issuance to be higher than the target.
 More details can be found in [ADR019](https://github.com/celestiaorg/celestia-app/blob/main/docs/architecture/adr-019-strict-inflation-schedule.md).
 
 Learn how to stake on your own at the community dashboards
-listed [here](https://docs.celestia.org/developers/staking/).
+listed [here](../../developers/staking/).
 
 ## Governance
 
