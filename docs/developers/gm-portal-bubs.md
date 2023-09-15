@@ -114,7 +114,7 @@ There are many possibilities of what could be built with this stack.
 These projects would be good to build on this stack:
 
 - on-chain gaming
-- decentralized social media
+- decentralised social media
 - an NFT ticketing rollup
 - Optimism on CelOPstia
 - OP Craft on Celestia
