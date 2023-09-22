@@ -531,8 +531,7 @@ const sidebars = {
         type: "category",
         label: "Overview of Celestia",
         link: {
-          type: "doc",
-          id: "learn/how-celestia-works/introduction"
+          type: 'generated-index'
         },
         collapsed: true,
         items: [
@@ -596,8 +595,7 @@ const sidebars = {
         type: "category",
         label: "TIA",
         link: {
-          type: "doc",
-          id: "learn/tia"
+          type: 'generated-index'
         },
         collapsed: true,
         items: [
