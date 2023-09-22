@@ -232,7 +232,7 @@ Then one can submit the proposal with:
 celestia-appd tx gov submit-proposal <path to json file> --from <wallet> --chain-id <chain-id>
 ```
 
-### Community pool
+### Community Pool
 
 A percentage the block rewards are allocated to the community pool. Community
 members can submit governance proposals to spend the community pool funds, and

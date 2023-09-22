@@ -21,7 +21,7 @@ function HomepageHeader() {
             <p className="button-heading">Learn</p>
             Learn how Celestia works
           </Link>
-          <Link className="front-page-link" to="/nodes/overview">
+          <Link className="front-page-link" to="/developers/node-tutorial">
             <p className="button-heading">Celestia node</p>
             Run a node
           </Link>

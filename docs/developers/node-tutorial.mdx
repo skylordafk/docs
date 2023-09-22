@@ -1143,7 +1143,7 @@ which ports are required to be open on your machine.
 
 Once you start the Light Node, a wallet key will be generated for you.
 You will need to fund that address with Mocha Testnet or Arabica Devnet
-tokens to pay for `PayForBlobs` transactions.
+tokens to pay for `PayForBlob` transactions or `PayForBlob transactions`, respectively.
 
 You can find the address by running the following command in
 the `celestia-node` directory:
@@ -1279,12 +1279,12 @@ celestia completion [bash | fish | powershell | zsh] --help
 
 ### Submitting data
 
-In this example, we will be submitting a `PayForBlobs`
+In this example, we will be submitting a `PayForBlob`
 transaction using our light node.
 
 Some things to consider:
 
-- PFB is a `PayForBlobs` Message.
+- PFB is a `PayForBlob` Message.
 - The endpoint also takes in `namespace_id` and `data` values.
 - Namespace ID should be 10 bytes, prefixed by `0x`
 - Data should be in hex-encoded bytes of the raw message
@@ -1295,7 +1295,7 @@ the `data` value of `0xf1f20ca8007e910a3bf8b2e61da0f26bca07ef78717a6ea54165f5`.
 You can generate your own `namespace_id` and data values using this
 useful Golang Playground we created [here](https://go.dev/play/p/7ltvaj8lhRl).
 
-Here is an example of the format of the `PayForBlobs` transaction:
+Here is an example of the format of the `PayForBlob` transaction:
 
 ```bash
 celestia rpc blob submit [namespace in hex] [data in hex]
@@ -1469,7 +1469,7 @@ higher. They are also **optional** to use with `blob.submit`.
 To set the gas fee and limit, you can use the `--fee` and `--gas.limit` flags
 respectively when submitting data using the RPC CLI.
 
-Learn more about gas fees and limits [here](../submit-data).
+Learn more about gas fees and limits [here](../../learn/submit-data).
 
 To set the fee of 10000 utia, use the `--fee 10000` flag:
 
@@ -1766,7 +1766,7 @@ If you encounter an error like:
 "rpc error: code = NotFound desc = account celestia1krkle0n547u0znz3unnln8paft2dq4z3rznv86 not found"
 ```
 
-It is possible that the account you are trying to submit a `PayForBlobs` from
+It is possible that the account you are trying to submit a `PayForBlob` from
 doesn't have testnet tokens yet. Ensure the testnet faucet has funded your
 account with tokens and then try again.
 :::

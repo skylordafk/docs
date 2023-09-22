@@ -76,7 +76,7 @@ easily deploy their own blockchain with minimal overhead.
 Celestia is a minimal blockchain that only orders and publishes transactions
 and does not execute them. By decoupling the consensus and application
 execution layers, Celestia modularizes the blockchain technology stack
-and unlocks new possibilities for decentralised application builders.
+and unlocks new possibilities for decentralized application builders.
 Lean more at [Celestia.org](https://celestia.org).
 
 ## OP Stack and Celestia

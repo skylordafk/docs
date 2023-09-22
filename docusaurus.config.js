@@ -107,7 +107,7 @@ const config = {
             from: "/category/node-api",
           },
           {
-            to: "/developers/submit-data",
+            to: "/learn/submit-data",
             from: "/concepts/submit-data",
           },
           {
@@ -134,10 +134,6 @@ const config = {
             to: "/learn/how-celestia-works/transaction-lifecycle",
             from: "/concepts/how-celestia-works/transaction-lifecycle",
           },
-          {
-            to: "/developers/submit-data/",
-            from: "/learn/submit-data/",
-          }
         ],
       },
     ],

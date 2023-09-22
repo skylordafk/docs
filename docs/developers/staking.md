@@ -6,7 +6,7 @@ description: Learn how to stake your tokens on the Celestia network.
 # Staking on Celestia
 
 Engage with the Celestia network at a deeper level through staking. An
-essential mechanism to a proof-of-stake (PoS) network, users can secure the
+essential mechanism to a proof-of-stake network, users can secure the
 network by delegating to a validator and receive a share of it's
 staking rewards.
 

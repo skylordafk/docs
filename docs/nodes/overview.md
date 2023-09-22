@@ -24,11 +24,6 @@ Data Availability:
   the data but does not connect to Consensus.
 - [Light node](./light-node.mdx): Light clients conduct data availability
   sampling on the Data Availability network.
-  
-  :::tip
-  If you want to learn how to run a light node and post data to Celestia,
-  we recommend the [node tutorial](../../developers/node-tutorial).
-  :::
 
 You can learn more about how to setup each different node by going through
 each tutorial guide.
