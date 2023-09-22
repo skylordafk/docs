@@ -14,7 +14,7 @@
 
 Celestia’s native asset, TIA, is an essential part of how developers build on
 the first modular blockchain network. To use Celestia for data availability,
-rollup developers submit `PayForBlobs` transactions on the network for a fee,
+rollup developers submit PayForBlobs transactions on the network for a fee,
 denominated in TIA.
 
 ### Bootstrapping new rollups
