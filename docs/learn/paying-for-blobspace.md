@@ -2,19 +2,19 @@
 
 ## PayForBlobs transactions
 
-To publish data on Celestia, developers can submit PayForBlobs transactions. A
-PayForBlobs transaction consists of the identity of the sender, the data to be
+To publish data on Celestia, developers can submit `PayForBlobs` transactions. A
+`PayForBlobs` transaction consists of the identity of the sender, the data to be
 made available, the data size, the namespace, and a signature.
 
-Each PayForBlobs transaction is split into two parts: the blob or blobs which
-include the data to be made available along with the namespace, and the payment
-transaction which includes a commitment to the data.
+Each `PayForBlobs` transaction is split into two parts: the blob or blobs which
+include the data to be made available along with the namespace, and the executable
+payment transaction which includes a commitment to the data.
 
-Both the blobs and executable transactions are put into the block within the
-appropriate namespace. The block data is extended using erasure coding and then
+Both the blobs and executable payment transactions are put into the block within
+the appropriate namespace. The block data is extended using erasure coding and then
 Merkelized into a data root commitment included in the block header.
 
-![Lifecycle of a `celestia-app` Transaction](../img/learn/tx-lifecycle.png)
+![Lifecycle of a `celestia-app` Transaction](../img/learn/tx-lifecycle.jpg)
 
 See
 [the detailed life cycle of a Celestia transaction](../how-celestia-works/transaction-lifecycle).

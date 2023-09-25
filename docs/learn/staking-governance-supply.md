@@ -62,7 +62,7 @@ ecosystem initiatives as in many other Cosmos SDK chains.
 
 Learn how to
 [submit a governance proposal to spend community pool funds](../../nodes/celestia-app-commands/#community-pool)
-on your own.
+.
 
 ## TIA allocation at genesis
 
@@ -93,7 +93,7 @@ of the circulating supply or are unlocked but subject to some form of governance
 to determine when the tokens are allocated. This includes the unlocked portion
 of the R&D & Ecosystem tokens and the tokens set aside for future initiatives.
 
-> _The definitions for circulating and available supply were adapted from
+_The definitions for circulating and available supply were adapted from
 [Optimism’s definitions](https://community.optimism.io/docs/governance/allocations/#token-distribution-details)._
 
 ![supply diagram](../img/learn/Celestia_TIA_Available_Supply.png)

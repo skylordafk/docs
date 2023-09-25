@@ -2,11 +2,13 @@
 
 ## TIA at a glance
 
-|  |  |
+<!-- markdownlint-disable MD013 -->
+| Property | Details |
 | -------- | ------- |
 | Abbreviation | TIA |
-| Total supply, genesis | 1,000,000,000 TIA |
+| Total supply at genesis | 1,000,000,000 TIA |
 | Inflation schedule | 8% in the first year, decreasing 10% per year until reaching an inflation floor of 1.5% annually |
+<!-- markdownlint-enable MD013 -->
 
 ## Role of TIA
 
