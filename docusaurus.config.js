@@ -119,10 +119,6 @@ const config = {
             from: "/concepts/data-availability-faq",
           },
           {
-            to: "/learn/specifications/reserved-namespaces",
-            from: "/concepts/specifications/reserved-namespaces",
-          },
-          {
             to: "/learn/how-celestia-works/data-availability-layer",
             from: "/concepts/how-celestia-works/data-availability-layer",
           },
