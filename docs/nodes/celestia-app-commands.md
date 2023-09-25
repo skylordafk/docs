@@ -145,7 +145,7 @@ celestia-appd tx bank send --help
 ```
 
 ## Governance
-
+<!-- markdownlint-disable MD013 -->
 Governance proposals on Celestia are limited as there are no text proposals,
 upgrades occur via social consensus, and some params are not modifiable.
 However, one can submit governance proposals to change certain parameters and

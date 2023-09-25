@@ -6,7 +6,8 @@ description: Learn about proof-of-stake on Celestia
 # Staking, governance, & supply
 
 ## Proof-of-stake on Celestia
-
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD033 -->
 Celestia is a proof-of-stake blockchain based on CometBFT and the Cosmos SDK.
 Celestia supports in-protocol delegation and will start with an initial
 validator set of 100.
