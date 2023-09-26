@@ -24,7 +24,7 @@ Thus, the block data consists of data partitioned into namespaces
 and executable transactions. Note that only these transactions are
 executed by the Celestia state machine once the block is committed.
 
-![Lifecycle of a `celestia-app` Transaction](../../img/learn/tx-lifecycle.jpg)
+![Lifecycle of a `celestia-app` Transaction](../../img/learn/tx-lifecycle.png)
 
 Next, the block producer adds to the block header a commitment
 of the block data. As described [here](../data-availability-layer),
