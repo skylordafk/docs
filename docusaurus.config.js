@@ -134,10 +134,6 @@ const config = {
             to: "/learn/how-celestia-works/transaction-lifecycle",
             from: "/concepts/how-celestia-works/transaction-lifecycle",
           },
-          {
-            to: "/learn/specifications/reserved-namespaces",
-            from: "/concepts/specifications/reserved-namespaces",
-          },
         ],
       },
     ],
